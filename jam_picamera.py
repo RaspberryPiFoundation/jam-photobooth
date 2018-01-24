@@ -36,3 +36,4 @@ class JamPiCamera(PiCamera):
         output_img = Image.open(output).convert('RGBA')
         new_output = Image.alpha_composite(output_img, overlay)
         new_output.save(output)
+        return output
