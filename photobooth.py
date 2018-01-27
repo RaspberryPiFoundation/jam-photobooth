@@ -86,7 +86,7 @@ while True:
     logger.info("waiting for button press")
     button.wait_for_press()
     logger.info("button pressed")
-    photos = capture_photos(1)
+    photos = capture_photos(4)
     if twitter:
         logger.info("twitter enabled")
         camera.annotate_text = text['tweeting with cancel']
