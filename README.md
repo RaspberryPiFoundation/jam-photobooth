@@ -82,6 +82,12 @@ photos. It will simply save the photos in the `Pictures` folder at
 
 1. Press and hold the GPIO button for 5 seconds to close the application.
 
+1. To make the program run on boot, add the following entry using `crontab -e`:
+
+    ```
+    @reboot python3 /home/pi/jam-photobooth/photobooth.py &
+    ```
+
 ## Twitter API keys
 
 In order to enable the Twitter feature, you'll need to provide Twitter API keys
@@ -131,7 +137,7 @@ the same.
 
 To select a language, edit the following line in `photobooth.py`:
 
-```
+```python
 text = get_text(language='en')
 ```
 
