@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo raspi-config nonint do_camera 1
+sudo raspi-config nonint do_camera 0
 sudo apt update
 sudo apt install python3-gpiozero python3-picamera -y
 sudo pip3 install twython
