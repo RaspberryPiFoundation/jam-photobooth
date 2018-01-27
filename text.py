@@ -16,12 +16,12 @@ text_de = {
     'tweet': "#PiParty fotoautomat",
     'photo number': "Foto {} von {}",
     'press to capture': "Drucken Sie die Taste, um zu erfassen...",
-    'tweeting': "Twittern...",
+    'tweeting': "Zwitschern...",
     'tweeted': "Getwittert!",
-    'tweeting with cancel': "Twittern...\n" "Drucken Sie die Taste, um abzubrechen",
+    'tweeting with cancel': "Zwitschern...\n" "Drucken Sie die Taste, um abzubrechen",
     'ready': "Bereit!\n" "Drucken Sie die Taste um zu starten...",
     'failed tweet': "Fehler beim Twittern :(",
-    'not tweeting': "Not tweeting",
+    'not tweeting': "Nicht zwitschern",
 }
 
 # French - Français
@@ -34,7 +34,7 @@ text_fr = {
     'tweeting with cancel': "Tweeting...\n" "Appuyez sur le bouton pour annuler",
     'ready': "Ready!\n" "Appuyez sur le bouton pour commencer...",
     'failed tweet': "Echec du tweet :(",
-    'not tweeting': "Not tweeting",
+    'not tweeting': "Pas de tweeting",
 }
 
 # Spanish - Español
@@ -47,7 +47,7 @@ text_es = {
     'tweeting with cancel': "Tweeting...\n" "Presione el boton para cancelar",
     'ready': "Ready!\n" "Presione el boton para comenzar...",
     'failed tweet': "Error al twittear :(",
-    'not tweeting': "Not tweeting",
+    'not tweeting': "No twitteando",
 }
 
 # Welsh - Cymraeg
