@@ -34,7 +34,14 @@ Software:
 
 ## Automated installation
 
-TODO
+Open a terminal window and type:
+
+```
+curl -sSL http://rpf.io/jampb | bash
+```
+
+Note this reboots the Pi at the end of the script, and launches the program
+automatically.
 
 ## Manual installation
 
