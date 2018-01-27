@@ -32,7 +32,7 @@ text_fr = {
     'tweeting': "Tweeting...",
     'tweeted': "Tweeted!",
     'tweeting with cancel': "Tweeting...\n" "Appuyez sur le bouton pour annuler",
-    'ready': "Ready!\n" "Appuyez sur le bouton pour commencer...",
+    'ready': "Pret!\n" "Appuyez sur le bouton pour commencer...",
     'failed tweet': "Echec du tweet :(",
     'not tweeting': "Pas de tweeting",
 }
@@ -45,7 +45,7 @@ text_es = {
     'tweeting': "Tweeting...",
     'tweeted': "Tweeted!",
     'tweeting with cancel': "Tweeting...\n" "Presione el boton para cancelar",
-    'ready': "Ready!\n" "Presione el boton para comenzar...",
+    'ready': "Listo!\n" "Presione el boton para comenzar...",
     'failed tweet': "Error al twittear :(",
     'not tweeting': "No twitteando",
 }
@@ -58,7 +58,7 @@ text_cy = {
     'tweeting': "Tweetio...",
     'tweeted': "Tweetio!",
     'tweeting with cancel': "Tweetio...\n" "Gwasgwch y botwm i ganslo",
-    'ready': "Ready!\n" "Gwasgwch y botwm i ddechrau...",
+    'ready': "Yn barod!\n" "Gwasgwch y botwm i ddechrau...",
     'failed tweet': "Methwyd tweet :(",
     'not tweeting': "Ddim yn tweetio",
 }
