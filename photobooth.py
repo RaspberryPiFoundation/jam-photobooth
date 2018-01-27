@@ -10,7 +10,7 @@ logger = logging.getLogger('photobooth')
 logging.basicConfig(level=logging.INFO)
 logger.info("starting")
 
-text = get_text(language='de')
+text = get_text(language='es')
 
 camera = JamPiCamera()
 button = Button(14, hold_time=5)
