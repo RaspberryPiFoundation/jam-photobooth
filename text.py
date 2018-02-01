@@ -26,15 +26,15 @@ text_de = {
 
 # French - Français
 text_fr = {
-    'tweet': "#PiParty photomaton",
+    'tweet': "Photomaton #PiParty",
     'photo number': "Photo {} de {}",
     'press to capture': "Appuyez sur le bouton pour capturer...",
-    'tweeting': "Tweeting...",
-    'tweeted': "Tweeted!",
-    'tweeting with cancel': "Tweeting...\n" "Appuyez sur le bouton pour annuler",
+    'tweeting': "Tweetant...",
+    'tweeted': "Tweeté!",
+    'tweeting with cancel': "Tweetant...\n" "Appuyez sur le bouton pour annuler",
     'ready': "Pret!\n" "Appuyez sur le bouton pour commencer...",
     'failed tweet': "Echec du tweet :(",
-    'not tweeting': "Pas de tweeting",
+    'not tweeting': "Non tweetant",
 }
 
 # Spanish - Español
