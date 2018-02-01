@@ -58,7 +58,7 @@ text_cy = {
     'tweeting': "Tweetio...",
     'tweeted': "Tweetio!",
     'tweeting with cancel': "Tweetio...\n" "Gwasgwch y botwm i ganslo",
-    'ready': "Yn barod!\n" "Gwasgwch y botwm i ddechrau...",
+    'ready': "Barod!\n" "Gwasgwch y botwm i ddechrau...",
     'failed tweet': "Methwyd tweet :(",
     'not tweeting': "Ddim yn tweetio",
 }
