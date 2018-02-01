@@ -13,15 +13,15 @@ text_en = {
 
 # German - Deutsche
 text_de = {
-    'tweet': "#PiParty fotoautomat",
+    'tweet': "#PiParty Fotoautomat",
     'photo number': "Foto {} von {}",
-    'press to capture': "Drucken Sie die Taste, um zu erfassen...",
-    'tweeting': "Zwitschern...",
+    'press to capture': "Drucke den Knopf fur ein Foto...",
+    'tweeting': "Am Twittern...",
     'tweeted': "Getwittert!",
-    'tweeting with cancel': "Zwitschern...\n" "Drucken Sie die Taste, um abzubrechen",
-    'ready': "Bereit!\n" "Drucken Sie die Taste um zu starten...",
+    'tweeting with cancel': "Am Twittern...\n" "Drucke den Knopf um abzubrechen",
+    'ready': "Bereit!\n" "Drucke den Knopf um zu starten...",
     'failed tweet': "Fehler beim Twittern :(",
-    'not tweeting': "Nicht zwitschern",
+    'not tweeting': "Nicht am Twittern",
 }
 
 # French - Français
