@@ -99,6 +99,7 @@ while True:
             sleep(2)
         else:
             logger.info("button not pressed - tweeting")
+            camera.annotate_text = text['tweeting']
             try:
                 uploaded_photos = upload_photos(photos)
                 tweet_photos(text['tweet'], uploaded_photos)
