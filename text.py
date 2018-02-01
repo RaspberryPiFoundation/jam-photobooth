@@ -41,13 +41,13 @@ text_fr = {
 text_es = {
     'tweet': "#PiParty cabina de fotos",
     'photo number': "Foto {} de {}",
-    'press to capture': "Presione el boton para capturar...",
-    'tweeting': "Tweeting...",
-    'tweeted': "Tweeted!",
-    'tweeting with cancel': "Tweeting...\n" "Presione el boton para cancelar",
+    'press to capture': "Presione el boton para sacar fotos...",
+    'tweeting': "Tuiteando...",
+    'tweeted': "Tuit enviado!",
+    'tweeting with cancel': "Tuiteando...\n" "Presione el boton para cancelar",
     'ready': "Listo!\n" "Presione el boton para comenzar...",
-    'failed tweet': "Error al twittear :(",
-    'not tweeting': "No twitteando",
+    'failed tweet': "Error al tuitear :(",
+    'not tweeting': "Tuit cancelado",
 }
 
 # Welsh - Cymraeg
