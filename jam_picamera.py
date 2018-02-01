@@ -20,7 +20,7 @@ def _gen_filename():
     """
     Generates a filename with a timestamp
     """
-    filename = strftime("/home/pi/Pictures/photo-%d-%m %H:%M.png", gmtime())
+    filename = strftime("/home/pi/Pictures/photo-%d-%m %H:%M:%S.png", gmtime())
     return filename
 
 class JamPiCamera(PiCamera):

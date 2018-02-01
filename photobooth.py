@@ -52,6 +52,7 @@ def capture_photos(n):
         countdown(3)
         logger.info("capturing photo")
         photo = camera.capture()
+        logger.info("captured photo: {}".format(photo))
         photos.append(photo)
     return photos
 
