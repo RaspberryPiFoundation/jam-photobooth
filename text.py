@@ -39,12 +39,12 @@ text_fr = {
 
 # Spanish - Español
 text_es = {
-    'tweet': "#PiParty cabina de fotos",
+    'tweet': "Cabina de fotos #PiParty",
     'photo number': "Foto {} de {}",
     'press to capture': "Presione el boton para capturar...",
-    'tweeting': "Tweeting...",
-    'tweeted': "Tweeted!",
-    'tweeting with cancel': "Tweeting...\n" "Presione el boton para cancelar",
+    'tweeting': "Twitteando...",
+    'tweeted': "Twitteado!",
+    'tweeting with cancel': "Twitteando...\n" "Presione el boton para cancelar",
     'ready': "Listo!\n" "Presione el boton para comenzar...",
     'failed tweet': "Error al twittear :(",
     'not tweeting': "No twitteando",
