@@ -30,7 +30,7 @@ text_fr = {
     'photo number': "Photo {} de {}",
     'press to capture': "Appuyez sur le bouton pour capturer...",
     'tweeting': "Tweetant...",
-    'tweeted': "Tweeté!",
+    'tweeted': "Tweete!",
     'tweeting with cancel': "Tweetant...\n" "Appuyez sur le bouton pour annuler",
     'ready': "Pret!\n" "Appuyez sur le bouton pour commencer...",
     'failed tweet': "Echec du tweet :(",
