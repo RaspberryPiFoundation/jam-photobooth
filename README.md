@@ -56,16 +56,18 @@ main menu, or using `raspi-config` on the command line.
 
 1. Open a Terminal window.
 
+1. Install the requirements:
+
+    ```
+    sudo apt update
+    sudo apt install python3-gpiozero python3-picamera python3-pip git -y
+    sudo pip3 install twython --upgrade
+    ```
+
 1. Git clone this repository:
 
     ```
     git clone https://github.com/raspberrypifoundation/jam-photobooth
-    ```
-
-1. Install Twython:
-
-    ```
-    sudo pip3 install twython
     ```
 
 1. Enter the project directory and run the photobooth script:
