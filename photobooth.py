@@ -20,7 +20,6 @@ else:
     twitter = None
 
 camera.resolution = (1024, 768)
-camera.hflip = True
 camera.start_preview()
 camera.annotate_text_size = 70
 
