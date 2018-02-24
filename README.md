@@ -161,11 +161,14 @@ Current language support:
 Pull requests with more language support welcome, as are any improvements to
 existing translations (they were all done using Google Translate).
 
-## Hacking
+## Modifications
 
 Feel free to edit the code to your own specification. Note that the
 `JamPiCamera` class is a slightly modified version of `PiCamera` (as you can
 see in `jam_picamera.py`).
+
+You may wish to rotate your picture around 180 degrees if your camera is
+upside-down. Simply add `camera.rotation = 180` after `camera = JamPicamera()`.
 
 You can also change the overlay image to another image. Just make sure it's the
 same size as whatever the camera resolution is set to (here it is set to
