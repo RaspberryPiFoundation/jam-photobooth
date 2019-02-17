@@ -60,7 +60,7 @@ main menu, or using `raspi-config` on the command line.
 
     ```
     sudo apt update
-    sudo apt install python3-gpiozero python3-picamera python3-pip git -y
+    sudo apt install python3-gpiozero python3-picamera python3-pip python3-pil git -y
     sudo pip3 install twython --upgrade
     ```
 
