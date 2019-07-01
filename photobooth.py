@@ -89,24 +89,29 @@ while True:
     photos = capture_photos(4)
     if twitter:
         logger.info("twitter enabled")
-        camera.annotate_text = text['tweeting with cancel']
-        pressed = button.wait_for_press(timeout=3)
-        if pressed:
-            logger.info("button pressed - not tweeting")
+        if "@" in text['tweet']:
+            logger.info("@mention in text violates Twitter T&Cs (see spamming) - not tweeting")
             camera.annotate_text = text['not tweeting']
-            button.wait_for_release()
             sleep(2)
         else:
-            logger.info("button not pressed - tweeting")
-            camera.annotate_text = text['tweeting']
-            try:
-                uploaded_photos = upload_photos(photos)
-                tweet_photos(text['tweet'], uploaded_photos)
-                sleep(1)
-            except:
-                logger.info("failed to tweet")
-                camera.annotate_text = text['failed tweet']
+            camera.annotate_text = text['tweeting with cancel']
+            pressed = button.wait_for_press(timeout=3)
+            if pressed:
+                logger.info("button pressed - not tweeting")
+                camera.annotate_text = text['not tweeting']
+                button.wait_for_release()
                 sleep(2)
+            else:
+                logger.info("button not pressed - tweeting")
+                camera.annotate_text = text['tweeting']
+                try:
+                    uploaded_photos = upload_photos(photos)
+                    tweet_photos(text['tweet'], uploaded_photos)
+                    sleep(1)
+                except:
+                    logger.info("failed to tweet")
+                    camera.annotate_text = text['failed tweet']
+                    sleep(2)
     else:
         logger.info("twitter disabled")
     camera.annotate_text = None
